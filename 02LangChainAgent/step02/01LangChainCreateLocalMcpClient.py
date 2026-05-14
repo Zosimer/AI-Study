@@ -31,7 +31,7 @@ model = load_chat_model(
 # 主逻辑
 async def main():
     # 指向我们刚刚写好的 MCP 服务端文件
-    mcp_server_path = "mcp_server.py"
+    mcp_server_path = "01mcp_server.py"
     print("正在连接 MCP 服务端...")
 
     # 连接 MCP 服务
