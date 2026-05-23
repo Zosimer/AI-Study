@@ -36,7 +36,6 @@ import os
 from langchain.agents import create_agent
 from langchain_core.tools import tool
 from langgraph.checkpoint.memory import InMemorySaver
-from langchain_core.messages import HumanMessage, SystemMessage, trim_messages
 
 # ============ 定义工具函数 ============
 @tool
